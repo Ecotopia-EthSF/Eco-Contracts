@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: UNLICENSED
+// SPDX-License-Identifier: None
 pragma solidity ^0.8.6;
 
 interface IAlluoProxy {
@@ -11,4 +11,6 @@ interface IAlluoProxy {
     address _targetToken,
     uint256 _amount
   ) external;
+
+  function growingRatio() external returns (uint256);
 }
