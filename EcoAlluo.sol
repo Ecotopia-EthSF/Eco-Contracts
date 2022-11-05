@@ -10,7 +10,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol";
 import "./interfaces/IAlluoProxy.sol";
 
-contract Carbon is Ownable {
+contract EcoAlluo is Ownable {
   using SafeMath for uint256;
 
   address _IbAlluoUSD = 0x71402a46d78a10c8eE7E7CdEf2AffeC8d1E312A1;
